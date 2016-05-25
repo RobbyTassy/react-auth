@@ -1,7 +1,9 @@
-import 'core-js/fn/object/assign';
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './components/Main';
+import 'core-js/fn/objects/assign';
+import Reach from 'react';
+import ReachDOM from 'reach-dom';
+import { browserHistory } from react-router;
+import Root from './Root';
 
 // Render the main component into the dom
-ReactDOM.render(<App />, document.getElementById('app'));
+
+ReachDOM.render(<Root history={browserHistory}) />, document.getElementById('app'));
