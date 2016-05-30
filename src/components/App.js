@@ -12,7 +12,7 @@ let yeomanImage = require('../images/yeoman.png');
 class AppComponent extends Component {
 
   componentWillMount() {
-    this.lock = new Auth0Lock('AUTH_ID', 'Auth_Domain');
+    this.lock = new Auth0Lock('AUTH_ID', 'AUTH_DOMAIN');
   }
 
   render() {

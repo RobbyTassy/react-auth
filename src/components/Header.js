@@ -18,7 +18,6 @@ login() {
   // We can call the show method from Auth0Lock
   // which is passed down as a prop, to allow
   // the user to log in
-
   this.props.lock.show((err, profile, token) => {
     if (err) {
       alert(err);
@@ -38,7 +37,7 @@ render() {
     <Navbar>
       <Navbar.Header>
         <Navbar.Brand>
-          <a href="#">React Contact</a>
+          <a href="#">React Contacts</a>
         </Navbar.Brand>
       </Navbar.Header>
       <Nav>
