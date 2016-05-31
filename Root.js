@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Router, Route, IndexRoute } from 'react-router';
-// import Index from './components/ContactDetail';
+import Index from './components/Index';
+// import ContactDetail from './components/ContactDetail';
 
 import App from './components/App';
 
@@ -20,7 +21,6 @@ class Root extends Component {
       </Router>
     );
   }
-
 }
 
 export default Root;
